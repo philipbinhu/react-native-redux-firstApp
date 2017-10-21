@@ -1,5 +1,8 @@
 # react-native-redux-firstApp
 a react-native-redux app
+Does not done now.
+
+No need to download the node_modules.
 
 This project was developed under Mac OS High Sierria(10.13), Simulator(10.0). 
 
