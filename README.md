@@ -1,5 +1,6 @@
 # react-native-redux-firstApp
 a react-native-redux app
+
 This project was developed under Mac OS High Sierria(10.13), Simulator(10.0). 
 
 1) In your code project directory, please run the following command in terminal:
