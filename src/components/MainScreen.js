@@ -11,17 +11,23 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
+    welcome: {
+        fontSize: 30,
+        textAlign: 'center',
+        margin: 10,
+    },
 });
 
 const MainScreen = () => (
   <View style={styles.container}>
+
     <LoginStatusMessage />
     <AuthButton />
   </View>
 );
 
 MainScreen.navigationOptions = {
-  title: 'Home Screen',
+  title: 'Main Screen',
 };
 
 export default MainScreen;

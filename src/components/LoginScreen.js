@@ -10,22 +10,22 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
   },
   welcome: {
-    fontSize: 50,
+    fontSize: 30,
     textAlign: 'center',
     margin: 10,
-  },
+  }
 });
 
 const LoginScreen = ({ navigation }) => (
   <View style={styles.container}>
     <Text style={styles.welcome}>
-      Screen A
+      Welcome to firstApp!
     </Text>
     <Text style={styles.instructions}>
-      This is great
+      Press log in button!
     </Text>
     <Button
-      onPress={() => navigation.dispatch({ type: 'Login' })}
+        onPress={() => navigation.dispatch({ type: 'Login' })}
       title="Log in"
     />
   </View>

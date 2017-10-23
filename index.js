@@ -4,10 +4,10 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
-import AppReducer from './src/reducers';
+import AppReducer from './src/reducers/root';
 import AppWithNavigationState from './src/navigators/AppNavigator';
 
-class firstApp extends React.Component {
+class SimpleApp extends React.Component {
     store = createStore(AppReducer);
 
     render() {
@@ -19,7 +19,7 @@ class firstApp extends React.Component {
     }
 }
 
-AppRegistry.registerComponent('firstApp', () => firstApp);
+AppRegistry.registerComponent('SimpleApp', () => SimpleApp);
 
 export default SimpleApp;
 

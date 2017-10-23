@@ -10,24 +10,32 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
   },
   welcome: {
-    fontSize: 20,
+    fontSize: 30,
     textAlign: 'center',
     margin: 10,
   },
+    tabinfo: {
+        fontSize: 15,
+        textAlign: 'center',
+        margin: 10,
+    },
 });
 
 const OneScreen = () => (
   <View style={styles.container}>
     <Text style={styles.welcome}>
-      1 Screen
+      This is the first Screen.
     </Text>
+      <Text style={styles.tabinfo}>
+          Press the bottom tab switch to other page.
+      </Text>
   </View>
 )
 
 const TwoScreen = () => (
   <View style={styles.container}>
     <Text style={styles.welcome}>
-      2 Screen
+        This is the second Screen.
     </Text>
   </View>
 )
@@ -35,7 +43,7 @@ const TwoScreen = () => (
 const ThreeScreen = () => (
   <View style={styles.container}>
     <Text style={styles.welcome}>
-     3 Screen
+        This is the third Screen.
     </Text>
   </View>
 )
@@ -43,7 +51,7 @@ const ThreeScreen = () => (
 const FourScreen = () => (
   <View style={styles.container}>
     <Text style={styles.welcome}>
-      4 Screen
+        This is the fourth Screen.
     </Text>
   </View>
 )

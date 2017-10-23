@@ -6,20 +6,17 @@ import { NavigationActions } from 'react-navigation';
 
 const styles = StyleSheet.create({
   welcome: {
-    fontSize: 20,
+    fontSize: 30,
     textAlign: 'center',
     margin: 10,
   },
 });
 
-const LoginStatusMessage = ({ isLoggedIn, dispatch }) => {
-  if (!isLoggedIn) {
-    return <Text>Please log in</Text>;
-  }
+const LoginStatusMessage = ({ dispatch }) => {
   return (
     <View>
       <Text style={styles.welcome}>
-        {'You are "logged in" right now'}
+        {'Press Profile or log out button.'}
       </Text>
       <Button
         onPress={() =>
