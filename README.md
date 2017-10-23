@@ -1,6 +1,5 @@
 # react-native-redux-firstApp
 a react-native-redux app
-Does not done now.
 
 No need to download the node_modules.
 
